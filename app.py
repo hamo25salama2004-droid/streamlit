@@ -18,7 +18,8 @@ div.stButton > dutton:first-child {
     color:white;
     font-size:20px;
     border-radius:10px;
-    border:2px solid #000000; }
+    border:2px solid #000000; 
+}
 </style>
 """,unsafe_allow_html=True)
 st.button(" خاص")
