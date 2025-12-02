@@ -11,6 +11,6 @@ st.header("زر ملون (primary) ")
 st.button("زر تأكيد مهم", type="primary")
 
 st.header("قائمة")
-page=st.radio("," الرأسية "] , " : اختر الصفحة [ " حول" " و" الاعدادات" , horizontal=True)
+page=st.radio("," الرأسية "[ , " : اختر الصفحة ] " حول" " و" الاعدادات" , horizontal=True)
 if page == "الرأسية":
   st.write("انت في القائمة الرأسية")
