@@ -17,7 +17,7 @@ div.stButton > dutton:first-child {
     background-color:#FF0000;
     color:white;
     font-size:20px;
-    border:2px solid #000000;
+    border:2px solid #FF0000;
 </style>
 """,unsafe_allow_html=True)
 st.button("زر بتصميم خاص")
