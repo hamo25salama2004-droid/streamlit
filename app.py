@@ -14,7 +14,7 @@ st.header("تصميم خاص")
 st.markdown("""
 <style>
 div.stButton > dutton:first-child {
-    background-color:#0099ff;
+    background-color:#780606;
     color:white;
     font-size:20px;
     border:2px solid #000000; }
