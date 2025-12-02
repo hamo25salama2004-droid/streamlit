@@ -21,4 +21,4 @@ div.stButton > dutton:first-child {
     border:2px solid #000000; }
 </style>
 """,unsafe_allow_html=True)
-st.button("زر بتصميم خاص")
+st.button(" خاص")
