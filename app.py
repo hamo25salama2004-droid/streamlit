@@ -10,7 +10,14 @@ if st.checkbox("عرض التفاصيل"):
 st.header("زر ملون (primary) ")
 st.button("زر تأكيد مهم", type="primary")
 
-st.header("قائمة")
-page=st.radio("," الرأسية "[ , " : اختر الصفحة ] " حول" " و" الاعدادات" , horizontal=True)
-if page == "الرأسية":
-  st.write("انت في القائمة الرأسية")
+st.header("تصميم خاص")
+st.markdown("""
+<style>
+div.stButton > dutton:first-child {
+    background-color:#0099ff;
+    color:white;
+    font-size:20px;
+    border:2px solid #000000;
+</style>
+""",unsafe_allow_html=True)
+st.button("زر بتصميم خاص")
