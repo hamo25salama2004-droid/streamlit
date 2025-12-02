@@ -8,4 +8,4 @@ if st.checkbox("عرض التفاصيل"):
   st.info("هذه هي التفاصل المخفية")
 
 st.header("زر ملون (primary) ")
-st.button("زر تأكيد مهم , type="primary")
+st.button("زر تأكيد مهم", type="primary")
