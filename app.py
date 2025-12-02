@@ -17,6 +17,7 @@ div.stButton > dutton:first-child {
     background-color:#780606;
     color:white;
     font-size:20px;
+    border-radius:10px;
     border:2px solid #000000; }
 </style>
 """,unsafe_allow_html=True)
