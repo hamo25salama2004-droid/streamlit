@@ -14,10 +14,10 @@ st.header("تصميم خاص")
 st.markdown("""
 <style>
 div.stButton > dutton:first-child {
-    background-color:#FF0000;
+    background-color:#0099ff;
     color:white;
     font-size:20px;
-    border:2px solid #FF0000; }
+    border:2px solid #000000; }
 </style>
 """,unsafe_allow_html=True)
 st.button("زر بتصميم خاص")
